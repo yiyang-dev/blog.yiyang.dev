@@ -1,0 +1,21 @@
+menu:
+  Home: /
+  Archives: /archives
+
+footer:
+  RSS: /atom.xml
+
+favicon: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus: 
+
+# Analytics
+mathjax: false
+google_analytics: 
+
+# Copyright Infomation
+copyright:
+  since: 2021
+  name: Donald Trump

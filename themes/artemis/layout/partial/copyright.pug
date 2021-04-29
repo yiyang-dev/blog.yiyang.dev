@@ -1,0 +1,6 @@
+.copyright
+    - var currentDate = new Date();
+    - var currentYear = currentDate.getFullYear();
+    - var copyrightYear = ! theme.copyright.since || currentYear == theme.copyright.since ? currentYear : theme.copyright.since + ' - ' + currentYear;
+    - var copyrightName = theme.copyright.name || config.author
+    p #{copyrightName} &copy; #{copyrightYear}

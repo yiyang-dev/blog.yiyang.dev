@@ -1,0 +1,5 @@
+each value, key in theme.footer
+     - var re = /^(http|https):\/\/*/gi;
+     - var tar = re.test(value) ? '_blank' : '_self'
+     a(href=url_for(value), target=tar)
+         != key

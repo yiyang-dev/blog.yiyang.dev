@@ -1,0 +1,18 @@
+doctype
+html(lang=config.language)
+    head
+        include head.pug
+    body
+        .wrap
+            header
+                h1.branding
+                    a(href=url_for(), title=config.title)
+                        = config.title
+                include nav.pug
+            main.container
+                block container
+                block pagination
+            footer
+                include footer-nav.pug
+                //- block copyright
+        include scripts.pug

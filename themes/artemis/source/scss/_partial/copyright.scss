@@ -1,0 +1,26 @@
+footer {
+    padding-bottom: 1px;
+    text-align: center;
+    margin: 100px 0 20px 0;
+
+    a {
+       padding: 20px;
+       color: #888;
+    }
+    a:hover {
+       color: #3C96E9;
+    }
+
+    .copyright {
+        margin: 4em 0;
+        border-top: 1px solid #ddd;
+        p, a {
+            color: #aaa;
+            font-size: 14px;
+            font-weight: 100;
+        }
+        a:hover {
+            color: #7BB6E1;
+        }
+    }
+}
