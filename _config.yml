@@ -105,8 +105,8 @@ theme_config:
     Archives: /archives
 
   footer:
-    LinkedIn: https://www.linkedin.com/in/yiyang-chen
-    Github: https://github.com/yiyang-dev
+    LinkedIn: 'https://www.linkedin.com/in/yiyang-chen'
+    Github: 'https://github.com/yiyang-dev'
     RSS: /atom.xml
 
   favicon: /favicon.png
