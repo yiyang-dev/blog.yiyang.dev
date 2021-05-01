@@ -1,5 +1,7 @@
 each value, key in theme.footer
-     - var re = /^(http|https):\/\/*/gi;
-     - var tar = re.test(value) ? '_blank' : '_self'
-     a(href=url_for(value), target=tar)
+     - var re = /^(http|https):\/\/*/i;
+     - var absolute = re.test(value)
+     - var tar = absolute ? '_blank' : '_self'
+     - var url = absolute ? value : url_for(value)
+     a(href=url, target=tar)
          != key
