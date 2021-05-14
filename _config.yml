@@ -113,7 +113,7 @@ theme_config:
 
   # Comment
   # e.g disqus: seansun
-  disqus: yiyang-dev
+  disqus: #yiyang-dev
 
   # Analytics
   mathjax: true
