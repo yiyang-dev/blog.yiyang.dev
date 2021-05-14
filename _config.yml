@@ -126,7 +126,7 @@ theme_config:
 
 deploy:
   type: rsync
-  host: yiyang.dev
+  host: 23.94.91.163
   user: yiyang
   root: /home/yiyang/blog.yiyang.dev
   args: '-e ssh -i /tmp/id_rsa'

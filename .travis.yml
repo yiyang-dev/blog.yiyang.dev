@@ -11,6 +11,6 @@ branches:
 before_install:
   - openssl aes-256-cbc -K $encrypted_0ddd2445e49f_key -iv $encrypted_0ddd2445e49f_iv -in travis_rsa.enc -out /tmp/id_rsa -d
   - chmod 600 /tmp/id_rsa
-  - echo 'yiyang.dev,23.94.91.163 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDASEArpffnCJEZOOmgq4K4jz8oaHn6u6SNPj8xPfyvL9t2wPCzjZfU8p9nkvm5RELEP3I8Pn4X68vWrnNaUpfFcqEzTGYD39ZED6Zm4bZzngBMm0HirT+XHghX/dyITiMNiqdM1yykl5dylzvsj+qEFQs+SaQoXNXPGdJf0MnH6AW7sRcJ5QxoG9ojjuSvlDfjc4gPzk0gK/Fii2Wa4pCrpxGtsuFYRYH3QGXIrZtwn2uSyiXtwZEqEQex/d6q64XpWSozrW2L1SdvAMwUpmXX/yBbo1tZ6+R2B2xRl0JjvZEsU22cbixr8iMkd/BfcYDYt5n62LULouG42S0q8JeV' >> $HOME/.ssh/known_hosts
+  - echo '23.94.91.163 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDASEArpffnCJEZOOmgq4K4jz8oaHn6u6SNPj8xPfyvL9t2wPCzjZfU8p9nkvm5RELEP3I8Pn4X68vWrnNaUpfFcqEzTGYD39ZED6Zm4bZzngBMm0HirT+XHghX/dyITiMNiqdM1yykl5dylzvsj+qEFQs+SaQoXNXPGdJf0MnH6AW7sRcJ5QxoG9ojjuSvlDfjc4gPzk0gK/Fii2Wa4pCrpxGtsuFYRYH3QGXIrZtwn2uSyiXtwZEqEQex/d6q64XpWSozrW2L1SdvAMwUpmXX/yBbo1tZ6+R2B2xRl0JjvZEsU22cbixr8iMkd/BfcYDYt5n62LULouG42S0q8JeV' >> $HOME/.ssh/known_hosts
 script:
   - hexo deploy
